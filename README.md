@@ -1,4 +1,4 @@
-# multitool v1.0.0
+# multitool v1.0.1
 
 Scuffed math and text tool.
 
@@ -20,3 +20,10 @@ Functions:
    - Count all characters in string
    - MAKE EVERYTHING UPPERCASE
    - make everything lowercase
+
+## Changelog
+
+### 1.0.1
+  - Polished the code
+  - Fixed several loops
+  - Some invalid inputs actually broke it, not anymore
