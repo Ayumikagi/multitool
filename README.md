@@ -26,12 +26,10 @@ Functions:
 
 ### 1.0.2
   - Floor and celing value added to calculator
- 
   - Further code polish
 
 ### 1.0.1
   - Absolute value added to calculator
-
   - Polished the code
   - Fixed several loops
   - Some invalid inputs actually broke it, not anymore
