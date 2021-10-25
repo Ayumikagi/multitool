@@ -1,10 +1,11 @@
 # multitool v1.1.0
 
-Scuffed math and text tool.
+Scuffed math, text and conversion tool.
 
 Functions:
   - Calculator
   - Text tools
+  - Converter
 
   Capable of resolving invalid inputs without crashing (wow).
   
