@@ -1,4 +1,4 @@
-# multitool v1.0.1
+# multitool v1.0.2
 
 Scuffed math and text tool.
 
@@ -9,8 +9,9 @@ Functions:
   Capable of resolving invalid inputs without crashing (wow).
   
 ## Calculator
-  - Can add, subtract, multiply, divide with rounded and modulo values, round, calculate square root and absolute and exponential value.
-  - Offers immediate choice of another mathematic operation after finishing the initial one.
+  - Can add, subtract, round, multiply, divide with rounded and modulo values
+  - Calculate square root, absolute and exponential value
+  - Display floor and ceiling 
 
 ## Text tools
   After entering your desired text, you can:
@@ -22,6 +23,11 @@ Functions:
    - make everything lowercase
 
 ## Changelog
+
+### 1.0.2
+  - Floor and celing value added to calculator
+ 
+  - Further code polish
 
 ### 1.0.1
   - Absolute value added to calculator
