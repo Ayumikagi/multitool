@@ -1,4 +1,4 @@
-# multitool v1.0.2
+# multitool v1.1.0
 
 Scuffed math and text tool.
 
@@ -22,7 +22,17 @@ Functions:
    - MAKE EVERYTHING UPPERCASE
    - make everything lowercase
 
+## Converter
+  - Convert weight from kg to lbs or vice versa
+  - Convert length (any metric unit) to other metric units, and imperial units
+  - Convert temperature to a different scale from Celsius, Fahrenheit or Kelvin
+
 ## Changelog
+
+### 1.1.0
+  - New function: Conversion: Convert weight, length or temperature
+  - Ability to return to previous menus and skip executed functions
+  - Yet another code polish
 
 ### 1.0.2
   - Floor and celing value added to calculator
