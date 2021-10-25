@@ -36,7 +36,7 @@ Functions:
   - Yet another code polish
 
 ### 1.0.2
-  - Floor and celing value added to calculator
+  - Floor and ceiling value added to calculator
   - Further code polish
 
 ### 1.0.1
