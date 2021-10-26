@@ -7,7 +7,7 @@ while True:
     while lives > 0:
 
         while True:
-            guess = input('Guess the numba: ')
+            guess = input('Guess the numba: ').upper()
 
             try:
                 guess = float(guess)
@@ -23,7 +23,7 @@ while True:
             print(f'Too low! Remaining lives: {lives}')
         elif guess == target:
             break
-        elif guess.upper() == 'R':
+        elif guess == 'R':
             break
     
     if lives > 0:
@@ -35,14 +35,14 @@ while True:
         break
 
 while True:
-    redo = input('Try again? (Y/N): ')
+    redo = input('Try again? (Y/N): ').upper()
 
-    if redo.upper() == 'Y':
+    if redo == 'Y':
         target = random.randint(1, 10)
         lives = 3
         break
 
-    elif redo.upper() == 'N':
+    elif redo == 'N':
         input('Bye! Press any key to continue.')
         exit()
 
