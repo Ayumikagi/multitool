@@ -30,7 +30,7 @@ Functions:
   - Convert temperature to a different scale from Celsius, Fahrenheit or Kelvin
 
 ## Minigames
-  - Play guess the number, three lives per attempt
+  - Play "Guess the number", three lives per attempt
 
 ## Changelog
 
