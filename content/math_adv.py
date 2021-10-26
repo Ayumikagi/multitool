@@ -22,7 +22,7 @@ while True:
 3. Exponential
         ''')
 
-        choice = input('Enter your choice: ')
+        choice = input('Enter your choice: ').upper()
 
         if choice == '1':
 
@@ -56,23 +56,23 @@ while True:
 
         while True:
 
-            redo = input('Do another calculation? (Y/N/R): ')
+            redo = input('Do another calculation? (Y/N/R): ').upper()
             
-            if redo.upper() == 'Y':
+            if redo == 'Y':
                 break
             
-            elif redo.upper() == 'N':
+            elif redo == 'N':
                 input('Bye! Press any key to continue')
                 exit()
 
-            elif redo.upper() == 'R':
+            elif redo == 'R':
                 break
 
             else:
                 print(f'"{redo}" is not a valid input! Please use (Y)es, (N)o, (R)eturn.')
         
-        if redo.upper() in ('Y', 'R'):
+        if redo in ('Y', 'R'):
             break
     
-    if redo.upper() == 'R':
+    if redo == 'R':
         break
