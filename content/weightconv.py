@@ -13,17 +13,17 @@ while True:
 
 while True:
 
-    weight = input('(L)bs or (K)g?: ')
+    weight = input('(L)bs or (K)g?: ').upper()
 
-    if weight.upper() == 'L':
+    if weight == 'L':
         print(f'You are {num4}Lbs, that equals {num4*0.45}Kg.')
         break
 
-    elif weight.upper() == 'K':
+    elif weight == 'K':
         print(f'You are {num4}Kg, that equals {num4/0.45}Lbs.')
         break
 
-    elif weight.upper() == 'R':
+    elif weight == 'R':
         break
 
     else:
