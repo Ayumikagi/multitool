@@ -1,11 +1,12 @@
-# multitool v1.1.0
+# multitool v1.2.0
 
-Scuffed math, text and conversion tool.
+Scuffed math, text and conversion tool. Now with some "fun" as well.
 
 Functions:
   - Calculator
   - Text tools
   - Converter
+  - Minigame<s>s</s>
 
   Capable of resolving invalid inputs without crashing (wow).
   
@@ -28,7 +29,14 @@ Functions:
   - Convert length (any metric unit) to other metric units, and imperial units
   - Convert temperature to a different scale from Celsius, Fahrenheit or Kelvin
 
+## Minigames
+  - Play guess the number, three lives per attempt
+
 ## Changelog
+
+### 1.2.0
+  - New function: Minigame<s>s</s>: Guess the number
+  - All choice inputs are no longer case sensitive
 
 ### 1.1.0
   - New function: Conversion: Convert weight, length or temperature
