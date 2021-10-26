@@ -1,4 +1,4 @@
-# multitool v2.0.0
+# multitool v2.1.0
 
 Scuffed math, text and conversion tool. Now with some "fun" as well.
 
@@ -6,7 +6,7 @@ Functions:
   - Calculator
   - Text tools
   - Converter
-  - Minigame<s>s</s>
+  - Minigames
 
   Capable of resolving invalid inputs without crashing (wow).
   
@@ -31,8 +31,13 @@ Functions:
 
 ## Minigames
   - Play "Guess the number", three lives per attempt
+  - Play "Car game", break the sound barrier
 
 ## Changelog
+
+### 2.1.0
+  - New minigame: Car game
+  - Optimized code
 
 ### 2.0.0
   - Packed individual functions into separate files (main file bloat gone)
