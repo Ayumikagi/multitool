@@ -1,4 +1,4 @@
-# multitool v1.2.0
+# multitool v2.0.0
 
 Scuffed math, text and conversion tool. Now with some "fun" as well.
 
@@ -33,6 +33,10 @@ Functions:
   - Play guess the number, three lives per attempt
 
 ## Changelog
+
+### 2.0.0
+  - Packed individual functions into separate files (main file bloat gone)
+  - QoL changes
 
 ### 1.2.0
   - New function: Minigame<s>s</s>: Guess the number
