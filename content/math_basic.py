@@ -32,7 +32,7 @@ while True:
         2. Subtract   4. Divide
         ''')
 
-        choice = input('Enter your choice: ')
+        choice = input('Enter your choice: ').upper()
 
         if choice == '1':
             add = num1 + num2
@@ -56,7 +56,7 @@ while True:
         2. Rounded result with modulo
                     ''')
 
-                pick = input('Enter your choice: ')
+                pick = input('Enter your choice: ').upper()
 
                 if pick in ('1', '2'):
 
@@ -71,7 +71,7 @@ while True:
                         print(f'Leftover: {modulo}')
                         break
 
-                    elif pick.upper() == 'R':
+                    elif pick == 'R':
                         break
 
                 else:
@@ -82,23 +82,23 @@ while True:
 
         while True:
 
-            redo = input('Do another calculation? (Y/N/R): ')
+            redo = input('Do another calculation? (Y/N/R): ').upper()
             
-            if redo.upper() == 'Y':
+            if redo == 'Y':
                 break
             
-            elif redo.upper() == 'N':
+            elif redo == 'N':
                 input('Bye! Press any key to continue')
                 exit()
 
-            elif redo.upper() == 'R':
+            elif redo == 'R':
                 break
 
             else:
                 print(f'"{redo}" is not a valid input! Please use (Y)es, (N)o, (R)eturn.')
         
-        if redo.upper() in ('Y', 'R'):
+        if redo in ('Y', 'R'):
             break
     
-    if redo.upper() == 'R':
+    if redo == 'R':
         break
