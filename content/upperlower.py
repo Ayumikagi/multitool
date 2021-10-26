@@ -8,10 +8,10 @@ while True:
     else:
         break
 
-form = input('(U)PPERCASE or (l)owercase?:')
+form = input('(U)PPERCASE or (l)owercase?:').upper()
 
-if form.upper() in ('UPPER, UPPERCASE, U, UP'):
+if form in ('UPPER, UPPERCASE, U, UP'):
     print(text.upper())
 
-elif form.upper() in ('LOWER, LOWERCASE, L, LOW'):
+elif form in ('LOWER, LOWERCASE, L, LOW'):
     print(text.lower())
