@@ -1,4 +1,4 @@
-# multitool v2.1.0
+# multitool v3.0.0
 
 Scuffed math, text and conversion tool. Now with some "fun" as well.
 
@@ -7,8 +7,6 @@ Functions:
   - Text tools
   - Converter
   - Minigames
-
-  Capable of resolving invalid inputs without crashing (wow).
   
 ## Calculator
   - Can add, subtract, round, multiply, divide with rounded and modulo values
@@ -18,7 +16,6 @@ Functions:
 ## Text tools
   After entering your desired text, you can:
    - Find position of your input in string (if present)
-   - Confirm presence of your input in string
    - Replace target value in string with another
    - Count all characters in string
    - MAKE EVERYTHING UPPERCASE
@@ -30,13 +27,19 @@ Functions:
   - Convert temperature to a different scale from Celsius, Fahrenheit or Kelvin
 
 ## Minigames
-  - Play "Guess the number", three lives per attempt
-  - Play "Car game", break the sound barrier
+  - Play "Guess the Number", three lives per attempt, multiple unlockable difficulties
+  - Play "Car Game", break the sound barrier
 
 ## Changelog
 
+### 3.0.0
+  - Code rewritten from scratch (still bad)
+  - Improved navigation through menus
+  - Updated function files
+  - "Guess the Number" now with additonal difficulties, some of them have to be unlocked
+
 ### 2.1.0
-  - New minigame: Car game
+  - New minigame: Car Game
   - Optimized code
 
 ### 2.0.0
@@ -44,7 +47,7 @@ Functions:
   - QoL changes
 
 ### 1.2.0
-  - New function: Minigame<s>s</s>: Guess the number
+  - New function: Minigame<s>s</s>: Guess the Number
   - All choice inputs are no longer case sensitive
 
 ### 1.1.0
