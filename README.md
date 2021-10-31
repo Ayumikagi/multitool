@@ -1,4 +1,4 @@
-# multitool v3.0.0
+# multitool v3.1.0
 
 Scuffed math, text and conversion tool. Now with some "fun" as well.
 
@@ -31,6 +31,9 @@ Functions:
   - Play "Car Game", break the sound barrier
 
 ## Changelog
+
+### 3.1.0
+  - "Guess the Game" now saves its state in an external .txt file, keep your unlocked difficulties even after you restart the code!
 
 ### 3.0.0
   - Code rewritten from scratch (still bad)
