@@ -1,5 +1,6 @@
 from textwrap import dedent
 
+
 def q(question):
     A = B = C = None
     if question == 1: 
