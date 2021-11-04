@@ -1,5 +1,6 @@
 import textwrap
 
+
 def welcome(user_name):
         print(f'''
 Hey {user_name}, welcome to multitool v3.0.0!
@@ -28,6 +29,7 @@ What would you like to do? [Calculator mode]:
 
 [1. Add] [2. Subtract] [3. Multiply] [4. Divide] [5. Round]
 [6. Square root] [7. Exponentation] [8. Absolute] [9. Floor/Ceiling]
+[10. Factorial]
 ''')
 
 
@@ -144,7 +146,7 @@ def minigames_welcome():
         print('''
 What would you like to play? [Minigames mode]:
 
-[1. Guess the Number] [2. Car Game]
+[1. Guess the Number] [2. Car Game] [3. Trivia Game]
 ''')
 
 def guessgame_welcome_0():
