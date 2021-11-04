@@ -1,6 +1,7 @@
 from functions import descriptions
 from functions import universal
 
+
 def find_pos(text):
     find = input('Find what?: ')
     text.find(find)
