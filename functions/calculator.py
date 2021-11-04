@@ -71,3 +71,14 @@ def math_f_end():
         else:
             descriptions.choice_error(choice)
     return back
+
+
+def factorial(num):
+    result = 1
+    while num > 0:
+        if num == 0:
+            break
+        else:
+            result *= num
+            num -= 1
+    return result
