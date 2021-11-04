@@ -1,4 +1,4 @@
-# multitool v3.1.0
+# multitool v3.2.0
 
 Scuffed math, text and conversion tool. Now with some "fun" as well.
 
@@ -10,7 +10,7 @@ Functions:
   
 ## Calculator
   - Can add, subtract, round, multiply, divide with rounded and modulo values
-  - Calculate square root, absolute and exponential value
+  - Calculate square root, factorial, absolute and exponential value
   - Display floor and ceiling 
 
 ## Text tools
@@ -29,8 +29,14 @@ Functions:
 ## Minigames
   - Play "Guess the Number", three lives per attempt, multiple unlockable difficulties
   - Play "Car Game", break the sound barrier
+  - Play "Trivia Game", for more info check out the standalone version [Here](https://github.com/Ayumikagi/trivia_game)
 
 ## Changelog
+
+### 3.2.0
+  - New function: Calculator: Factorial
+  - New minigame: Trivia Game
+  - Minor code formatting edits
 
 ### 3.1.0
   - "Guess the Game" now saves its state in an external .txt file, keep your unlocked difficulties even after you restart the code!
